@@ -1,3 +1,77 @@
+# Git Workflow Guide
+
+## 1. Clone the Project to Local
+
+```bash
+git clone https://dummy_user@bitbucket.org/dummy_user/sample_project.git
+```
+
+## 2. Show All Branches
+
+```bash
+git branch
+```
+
+## 3. Create a New Branch
+
+```bash
+git branch new_feature_branch
+```
+
+## 4. Switch to a Particular Branch
+
+```bash
+git checkout branch_name
+```
+
+## 5. Check File Status
+
+Shows the status of files (e.g., new, modified, staged).
+
+```bash
+git status
+```
+
+## 6. Add Files to Staging Area
+
+```bash
+git add .
+```
+
+## 7. Commit Changes
+
+Note: This only saves changes locally.
+
+```bash
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+git commit -m "index_9_1_2019"
+```
+
+## 8. Clear the Screen
+
+```bash
+clear
+```
+
+## 9. Push Changes to Remote Repository
+
+> Note: You must commit before pushing.
+
+```bash
+git push origin branch_name_on_server  # e.g., git push origin master
+```
+
+## 10. Pull Changes from Remote Repository
+
+```bash
+git pull origin branch_name
+```
+
+
+---
+
 # Git: Tips And Tricks
 Git Cheatsheet with a few nifty tips and tricks
 
